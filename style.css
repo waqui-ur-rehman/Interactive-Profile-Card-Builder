@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: khaki;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+.section {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+
+
+}
+#card1, #card2, #card3 {
+    border: 2px solid black;
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 30px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.name {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    
+
+}
+.role {
+    padding: 15px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px;
+    gap: 12px;
+    display: flex;
+    font-weight: 800;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.greetme {
+    background-color: #060708;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 16px;
+    cursor: pointer;
+    font-size: 1rem;
+    border-color: rgb(189, 209, 224);
+    width: 100%;
+    transition: background-color 0.2s;
+    
+    
+
+}
+
+.clickcounter {
+    color: black;
+    font-size: 0.9rem;
+    margin-bottom: 16px;
+    background-color: white;
+    min-height: 20px; 
+}
+.card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px black;
+}
+.greetings {
+    color: black;
+    font-weight: 800;
+    margin-top: 15px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    word-wrap: break-word;
+    width: 100%;
+    min-height: 45px;         
+    display: flex;            
+    align-items: center;      
+    justify-content: center; 
+    background-color: white;
+}
+.greetme:hover {
+    background-color: #333;
+    
+}
